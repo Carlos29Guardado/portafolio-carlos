@@ -25,63 +25,55 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
-    summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+    name: "Carlos Manuel Guardado",
+    specialty: "Full Stack Developer Junior",
+    summary: "Estudiante de Ingeniería en Sistemas con experiencia en el ciclo completo de desarrollo y despliegue de aplicaciones web. Especializado en crear interfaces dinámicas, gestionar bases de datos y orquestar arquitecturas en la nube.",
+    email: "cmgd292005@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Iglesia Comunitaria (Proyecto Independiente",
+      position: "Desarrollador Android Nativo",
+      startDate: "2024",
+      endDate: "2026",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Diseño y desarrollo de una aplicación móvil nativa en Java para digitalizar el registro y control logístico de alcancías de la comunidad.",
+        "Implementación de persistencia de datos local utilizando SQLite, optimizando la gestión y resguardo de los registros.",
+        "Configuración de túneles de red con ngrok para habilitar la comunicación y sincronización de datos de la app con un servidor local."
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Proyecto Sismo SV",
+      position: "Especialista en Despliegue Web",
+      startDate: "Junio 2026",
+      endDate: "Agosto 2026",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+       "Responsable de la configuración y paso a producción de la plataforma web Sismos SV.",
+        "Ejecución del despliegue exitoso tanto del frontend como del backend, garantizando la correcta comunicación y funcionamiento de ambos entornos en la web."
       ],
     },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
+
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Proyecto 1: JuegosCentral",
+      summary: "Interfaz responsiva de gestión de productos con operaciones CRUD completas manipulando el DOM. Desarrollado nativamente con HTML5, CSS3 y Vanilla JavaScript.",
+      linkPreview: "https://proyecto-juego-central.vercel.app/dashboard.html",
+      linkSource: "https://github.com/Carlos29Guardado/Proyecto-JuegoCentral.git",
+      image: "/JuegosCentral.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      name: "Sistema de Inventario MERN",
+      summary: "Plataforma Full-Stack para gestión de libros. Desarrollada con React.js en el frontend y Node.js/Express en el backend, con persistencia en MongoDB Atlas y autenticación JWT.",
+      linkPreview: "https://libreria-web-proyecto.vercel.app/",
+      linkSource: "https://github.com/Carlos29Guardado/Librer-a-Web-Proyecto.git",
       image: "/shopify-clon.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      name: "Control de Alcancías (Android Nativo)",
+      summary: "Aplicación móvil nativa para Android construida con Java y SQLite. Permite la recolección en campo, almacenamiento local y sincronización de datos con servidor mediante ngrok.",
+      linkPreview: "https://appetize.io/app/b_rgdn5imaqswfmxmswehawifwdu",
+      linkSource: "https://github.com/Carlos29Guardado/app_android_alcancias.git",
       image: "/clone-ig.png",
     },
   ],
