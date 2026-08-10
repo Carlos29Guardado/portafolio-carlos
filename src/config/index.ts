@@ -1,23 +1,21 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Carlos Manuel Guardado — Full Stack Developer Junior",
+  author: "Carlos Manuel Guardado",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-  lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+    "Estudiante de Ingeniería en Sistemas radicado en El Salvador. Especializado en el desarrollo full-stack de aplicaciones web y creación de aplicaciones móviles nativas.",
+  lang: "es",
+  siteLogo: "/perfil.png",
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
+    { text: "Experiencia", href: "#experience" },
+    { text: "Proyectos", href: "#projects" },
+    { text: "Sobre mí", href: "#about" },
   ],
   socialLinks: [
     { text: "Twitter", href: "https://github.com/immois/astro-zen" },
     { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Github", href: "https://github.com/immois/astro-zen" }
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -56,7 +54,7 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Proyecto 1: JuegosCentral",
+      name: " JuegosCentral",
       summary: "Interfaz responsiva de gestión de productos con operaciones CRUD completas manipulando el DOM. Desarrollado nativamente con HTML5, CSS3 y Vanilla JavaScript.",
       linkPreview: "https://proyecto-juego-central.vercel.app/dashboard.html",
       linkSource: "https://github.com/Carlos29Guardado/Proyecto-JuegoCentral.git",
@@ -67,7 +65,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: "Plataforma Full-Stack para gestión de libros. Desarrollada con React.js en el frontend y Node.js/Express en el backend, con persistencia en MongoDB Atlas y autenticación JWT.",
       linkPreview: "https://libreria-web-proyecto.vercel.app/",
       linkSource: "https://github.com/Carlos29Guardado/Librer-a-Web-Proyecto.git",
-      image: "/shopify-clon.png",
+      image: "/libreriaWeb.png",
     },
     {
       name: "Control de Alcancías (Android Nativo)",
