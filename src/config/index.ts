@@ -72,7 +72,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: "Plataforma Full-Stack desarrollada con Angular en el frontend y Node.js/Express en el backend. Permite el control total de inventarios y gestión de usuarios con operaciones CRUD completas y persistencia en MongoDB Atlas.",
       linkPreview: "https://proyecto-pos-llanteria-five.vercel.app/inventario",
       linkSource: "https://github.com/Carlos29Guardado/proyecto-pos-llanteria.git",
-      image: "/llanteripos.png",
+      image: "/llanteriapos.png",
     },
   ],
   about: {
