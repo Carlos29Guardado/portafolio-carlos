@@ -68,20 +68,18 @@ export const SITE_CONTENT: SiteContent = {
       image: "/libreriaWeb.png",
     },
     {
-      name: "Control de Alcancías (Android Nativo)",
-      summary: "Aplicación móvil nativa para Android construida con Java y SQLite. Permite la recolección en campo, almacenamiento local y sincronización de datos con servidor mediante ngrok.",
-      linkPreview: "https://appetize.io/app/b_rgdn5imaqswfmxmswehawifwdu",
-      linkSource: "https://github.com/Carlos29Guardado/app_android_alcancias.git",
-      image: "/clone-ig.png",
+      name: "Sistema POS e Inventario (Llantería)",
+      summary: "Plataforma Full-Stack desarrollada con Angular en el frontend y Node.js/Express en el backend. Permite el control total de inventarios y gestión de usuarios con operaciones CRUD completas y persistencia en MongoDB Atlas.",
+      linkPreview: "https://proyecto-pos-llanteria-five.vercel.app/inventario",
+      linkSource: "https://github.com/Carlos29Guardado/proyecto-pos-llanteria.git",
+      image: "/llanteripos.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Hola, soy Carlos Guardado, Desarrollador de Software enfocado en la creación de aplicaciones web y móviles robustas y escalables. Me especializo en diseñar soluciones digitales de extremo a extremo, arquitecturas backend modernas e interfaces de alto rendimiento que impulsan la eficiencia operativa y resuelven problemas complejos.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/perfil.png",
   },
 };
 
