@@ -20,8 +20,11 @@ const { projects } = Astro.props;
           style={`top: ${top}px;`}
           class="sticky mb-12 rounded-2xl border border-neutral/20 bg-black"
         >
-          <div class="bg-difu relative z-1 grid h-145 w-full grid-rows-2 rounded-2xl bg-[#1c232d]/85 before:absolute before:inset-0 before:z-[-1] before:rounded-2xl before:bg-[url(/raja.png)] before:bg-size-[128px] before:bg-repeat before:opacity-5 before:content-[''] sm:grid-cols-2 sm:grid-rows-1 md:h-96">
-            <div class="px-6 pt-12">
+          <!-- Grid dinámico: si hay imagen usa 2 columnas, si no hay, se adapta a una sola -->
+          <div class={`bg-difu relative z-1 grid w-full rounded-2xl bg-[#1c232d]/85 before:absolute before:inset-0 before:z-[-1] before:rounded-2xl before:bg-[url(/raja.png)] before:bg-size-[128px] before:bg-repeat before:opacity-5 before:content-[''] ${image ? 'grid-rows-2 sm:grid-cols-2 sm:grid-rows-1 h-145 md:h-96' : 'grid-rows-1 h-auto py-8'}`}>
+            
+            <!-- Contenedor del texto: si no hay imagen, abarca todo el ancho (col-span-2) -->
+            <div class={`px-6 pt-12 ${!image ? 'sm:col-span-2 pb-12' : ''}`}>
               <h3 class="mb-5 font-serif text-3xl font-medium text-primary">
                 {name}
               </h3>
@@ -48,8 +51,9 @@ const { projects } = Astro.props;
               </div>
             </div>
 
-            <div class="flex items-end justify-end overflow-hidden">
-              {image && (
+            <!-- Contenedor de la imagen (solo se renderiza si existe) -->
+            {image && (
+              <div class="flex items-end justify-end overflow-hidden">
                 <Image
                   class="h-full w-[95%] rounded-ss-xl rounded-ee-2xl object-none object-top-left sm:h-[85%] sm:w-full"
                   src={image}
@@ -57,8 +61,8 @@ const { projects } = Astro.props;
                   width="736"
                   height="483"
                 />
-              )}
-            </div>
+              </div>
+            )}
           </div>
         </div>
       );
