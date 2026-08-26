@@ -13,8 +13,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Sobre mí", href: "#about" },
   ],
   socialLinks: [
-    { text: "LinkedIn", href: "https://github.com/Carlos29Guardado" },
-    { text: "Github", href: "https://www.linkedin.com/in/carlos-guardado-2298573a7/" }
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/carlos-guardado-2298573a7/" },
+    { text: "Github", href: "https://github.com/Carlos29Guardado" }
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
