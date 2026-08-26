@@ -58,21 +58,21 @@ export const SITE_CONTENT: SiteContent = {
       summary: "Interfaz responsiva de gestión de productos con operaciones CRUD completas manipulando el DOM. Desarrollado nativamente con HTML5, CSS3 y Vanilla JavaScript.",
       linkPreview: "https://proyecto-juego-central.vercel.app/dashboard.html",
       linkSource: "https://github.com/Carlos29Guardado/Proyecto-JuegoCentral.git",
-      image: "/JuegosCentral.png",
+      
     },
     {
       name: "Sistema de Inventario MERN",
       summary: "Plataforma Full-Stack para gestión de libros. Desarrollada con React.js en el frontend y Node.js/Express en el backend, con persistencia en MongoDB Atlas y autenticación JWT.",
       linkPreview: "https://libreria-web-proyecto.vercel.app/",
       linkSource: "https://github.com/Carlos29Guardado/Librer-a-Web-Proyecto.git",
-      image: "/libreriaWeb.png",
+      
     },
     {
       name: "Sistema POS e Inventario (Llantería)",
       summary: "Plataforma Full-Stack desarrollada con Angular en el frontend y Node.js/Express en el backend. Permite el control total de inventarios y gestión de usuarios con operaciones CRUD completas y persistencia en MongoDB Atlas.",
       linkPreview: "https://proyecto-pos-llanteria-five.vercel.app/inventario",
-      linkSource: "https://github.com/Carlos29Guardado/proyecto-pos-llanteria.git",
-      image: "/llanteriapos.png",
+      linkSource: "https://github.com/Carlos29Guardado/proyecto-pos-llanteria.git"
+      
     },
   ],
   about: {
