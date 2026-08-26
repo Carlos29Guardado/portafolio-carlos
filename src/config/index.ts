@@ -24,7 +24,7 @@ export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Carlos Manuel Guardado",
     specialty: "Full Stack Developer Junior",
-    summary: "Estudiante de Ingeniería en Sistemas con experiencia en el ciclo completo de desarrollo y despliegue de aplicaciones web. Especializado en crear interfaces dinámicas, gestionar bases de datos y orquestar arquitecturas en la nube.",
+    summary: "Desarrollador Full Stack con experiencia en el ciclo completo de desarrollo y despliegue de aplicaciones web. Especializado en crear interfaces dinámicas, gestionar bases de datos y orquestar arquitecturas en la nube",
     email: "cmgd292005@gmail.com",
   },
   experience: [
