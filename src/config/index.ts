@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Carlos Manuel Guardado — Full Stack Developer Junior",
   author: "Carlos Manuel Guardado",
   description:
-    "Estudiante de Ingeniería en Sistemas radicado en El Salvador. Especializado en el desarrollo full-stack de aplicaciones web y creación de aplicaciones móviles nativas.",
+    "Desarrollador Full Stack con experiencia en el ciclo completo de desarrollo y despliegue de aplicaciones web. Especializado en crear interfaces dinámicas, gestionar bases de datos y orquestar arquitecturas en la nube",
   lang: "es",
   siteLogo: "/perfil.png",
   navLinks: [
@@ -13,9 +13,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Sobre mí", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" }
+    { text: "LinkedIn", href: "https://github.com/Carlos29Guardado" },
+    { text: "Github", href: "https://www.linkedin.com/in/carlos-guardado-2298573a7/" }
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
