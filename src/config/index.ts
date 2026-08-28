@@ -29,7 +29,7 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
-      company: "Iglesia Comunitaria (Proyecto Independiente",
+      company: "Iglesia Comunitaria (Proyecto Independiente)",
       position: "Desarrollador Android Nativo",
       startDate: "2024",
       endDate: "2026",
