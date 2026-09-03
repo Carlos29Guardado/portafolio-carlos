@@ -21,6 +21,7 @@ export interface HeroProps {
   specialty: string;
   summary: string;
   email: string;
+  cvButton: string;
 }
 
 export interface ExperienceProps {
@@ -40,6 +41,7 @@ export interface ProjectProps {
 }
 
 export interface AboutProps {
+
   description: string;
   image?: string;
   
