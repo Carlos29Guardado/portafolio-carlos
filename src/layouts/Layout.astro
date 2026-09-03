@@ -1,26 +1,34 @@
 ---
 import Header from "@components/Header.astro";
-import { Font } from "astro:assets";
-import { SITE_CONFIG } from "@config";
 import Footer from "@components/Footer.astro";
+import { Font } from "astro:assets";
+import { SITE_CONFIG } from "@config"; // Faltaba esta importación
+
+// 1. Detectamos el idioma actual desde la URL
+const { pathname } = Astro.url;
+const isEnglish = pathname.startsWith('/en');
+const targetUrl = isEnglish ? '/' : '/en/';
+const currentLang = isEnglish ? 'en' : 'es';
+
+// 2. Extraemos la configuración según el idioma actual
+const config = SITE_CONFIG[currentLang] || SITE_CONFIG;
 
 const {
   title,
   description,
   siteLogo,
   navLinks,
-  lang,
   author,
   socialLinks,
   socialImage,
   canonicalURL = new URL(Astro.url.pathname, Astro.site).href,
-} = SITE_CONFIG;
+} = config;
 
 const ogImgUrl = canonicalURL + socialImage;
 ---
 
 <!doctype html>
-<html lang={lang} class="scroll-pt-16 scroll-smooth">
+<html lang={currentLang} class="scroll-pt-16 scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
@@ -44,11 +52,21 @@ const ogImgUrl = canonicalURL + socialImage;
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={ogImgUrl} />
   </head>
-  <body class="bg-black font-sans">
+  <body class="bg-black font-sans relative">
+    
+    <!-- 3. Botón reubicado correctamente en el body (Flotante arriba a la derecha) -->
+    <div class="absolute top-4 right-4 z-50">
+      <a href={targetUrl} style="padding: 6px 12px; background-color: #5755ff; color: white; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 14px;">
+        {isEnglish ? 'ES' : 'EN'}
+      </a>
+    </div>
+
     <Header siteLogo={siteLogo} navLinks={navLinks} />
+    
     <main class="mx-auto max-w-3xl px-5">
       <slot />
     </main>
+    
     <Footer author={author} socialLinks={socialLinks} />
   </body>
 </html>
