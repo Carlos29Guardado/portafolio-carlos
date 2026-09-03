@@ -11,7 +11,7 @@ interface Props {
 const { experience, title } = Astro.props;
 ---
 
-<Section text="{title}" href="experience">
+<Section text={title} href="experience">
   {
     experience.map(({ company, position, startDate, endDate, summary }) => (
       <div class="mb-10">

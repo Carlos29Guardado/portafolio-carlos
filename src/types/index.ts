@@ -41,7 +41,7 @@ export interface ProjectProps {
 }
 
 export interface AboutProps {
-
+  title: string;
   description: string;
   image?: string;
   
