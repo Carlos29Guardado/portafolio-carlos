@@ -46,6 +46,7 @@ export const SITE_CONTENT = {
       specialty: "Full Stack Developer Junior",
       summary: "Desarrollador Full Stack con experiencia en el ciclo completo de desarrollo y despliegue de aplicaciones web. Especializado en crear interfaces dinámicas, gestionar bases de datos y orquestar arquitecturas en la nube",
       email: "cmgd292005@gmail.com",
+      cvButton: "Descargar CV"
     },
     experience: [
       {
@@ -101,6 +102,7 @@ export const SITE_CONTENT = {
       specialty: "Junior Full Stack Developer",
       summary: "Full Stack Developer with experience in the complete web application development and deployment lifecycle. Specialized in creating dynamic interfaces, managing databases, and orchestrating cloud architectures.",
       email: "cmgd292005@gmail.com",
+      cvButton: "Download CV"
     },
     experience: [
       {
