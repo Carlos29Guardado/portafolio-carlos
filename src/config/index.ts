@@ -1,4 +1,3 @@
-import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG = {
   es: {
