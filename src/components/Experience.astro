@@ -2,15 +2,16 @@
 import Section from "./Section.astro";
 import type { ExperienceProps } from "@types";
 
+
 interface Props {
   title: string,
   experience: ExperienceProps[];
 }
 
-const { experience } = Astro.props;
+const { experience, title } = Astro.props;
 ---
 
-<Section text="Expericiencia" href="experience">
+<Section text="{title}" href="experience">
   {
     experience.map(({ company, position, startDate, endDate, summary }) => (
       <div class="mb-10">

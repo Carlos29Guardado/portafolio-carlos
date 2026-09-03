@@ -8,10 +8,10 @@ interface Props {
   projects: ProjectProps[];
 }
 
-const { projects } = Astro.props;
+const { projects, title } = Astro.props;
 ---
 
-<Section text="Proyectos" href="projects">
+<Section text="{title}" href="projects">
   {
     projects.map((project: ProjectProps, index: number) => {
       const { name, summary, image, linkPreview, linkSource } = project;
