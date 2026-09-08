@@ -65,8 +65,10 @@ export const SITE_CONTENT = {
         startDate: "Junio 2026",
         endDate: "Agosto 2026",
         summary: [
-          "Responsable de la configuración y paso a producción de la plataforma web Sismos SV.",
-          "Ejecución del despliegue exitoso tanto del frontend como del backend, garantizando la correcta comunicación y funcionamiento de ambos entornos en la web."
+          "Desarrollo integral de la plataforma web utilizando React para el frontend y Node.js con MongoDB para el backend.",
+          "Integración de un servicio de Machine Learning externo desarrollado en Python para el análisis y monitoreo de datos.",
+          "Responsable de la configuración y paso a producción de la plataforma web (Vercel y Render).",
+          "Ejecución del despliegue exitoso, garantizando la correcta comunicación y sincronización de los tres entornos en la nube."
         ],
       },
     ],
@@ -88,6 +90,18 @@ export const SITE_CONTENT = {
         summary: "Plataforma Full-Stack desarrollada con Angular en el frontend y Node.js/Express en el backend. Permite el control total de inventarios y gestión de usuarios con operaciones CRUD completas y persistencia en MongoDB Atlas.",
         linkPreview: "https://proyecto-pos-llanteria-five.vercel.app/inventario",
         linkSource: "https://github.com/Carlos29Guardado/proyecto-pos-llanteria.git",
+      },
+      {
+        name: "Plataforma de Monitoreo - Sismos SV",
+        summary: "Aplicación Full-Stack para el análisis de riesgo sísmico. Desarrollada con React, Node.js, MongoDB y un microservicio de Machine Learning en Python alojado en Render.",
+        linkPreview: "https://proyecto-simos-sv-frontend.vercel.app/",
+        linkSource: "https://github.com/Carlos29Guardado/proyecto-simos-sv-frontend.git",
+      },
+      {
+        name: "PC-SalesBot Pro - Asistente de IA para Telegram",
+        summary: "Bot inteligente desarrollado con Python, la API de Google Gemini y MongoDB Atlas. Permite la recomendación de hardware, validación de catálogos y persistencia de historiales, desplegado en la nube utilizando Render.",
+        linkPreview: "https://web.telegram.org/a/#8545823479",
+        linkSource: "https://github.com/Carlos29Guardado/chatBot-PcSalesBot-Pro.git",
       },
     ],
     about: {
@@ -116,15 +130,17 @@ export const SITE_CONTENT = {
         ],
       },
       {
-        company: "Sismos SV Project",
+        company: "Proyecto Sismo SV",
         position: "Web Deployment Specialist",
         startDate: "June 2026",
         endDate: "August 2026",
         summary: [
-          "Spearheaded the configuration and production deployment of the Sismos SV earthquake monitoring web platform.",
-          "Executed the successful deployment of both frontend and backend environments, ensuring seamless communication and high availability on the web."
+          "Full development of the web platform using React for the frontend and Node.js with MongoDB for the backend.",
+          "Integration of an external Machine Learning service developed in Python for data analysis and monitoring.",
+          "Responsible for the configuration and production release of the web platform (Vercel and Render).",
+          "Execution of a successful deployment, ensuring proper communication and synchronization across all three cloud environments."
         ],
-      },
+      }
     ],
     projects: [
       {
@@ -144,6 +160,18 @@ export const SITE_CONTENT = {
         summary: "Full-Stack Point of Sale and Inventory platform built with Angular (Frontend) and Node.js/Express (Backend). Enables total inventory control and user management with full CRUD operations and MongoDB Atlas persistence.",
         linkPreview: "https://proyecto-pos-llanteria-five.vercel.app/inventario",
         linkSource: "https://github.com/Carlos29Guardado/proyecto-pos-llanteria.git",
+      },
+      {
+        name: "Monitoring Platform - Sismos SV",
+        summary: "Full-stack application for seismic risk analysis. Developed with React, Node.js, MongoDB, and a Python Machine Learning microservice hosted on Render.",
+        linkPreview: "https://proyecto-simos-sv-frontend.vercel.app/",
+        linkSource: "https://github.com/Carlos29Guardado/proyecto-simos-sv-frontend.git",
+      },
+      {
+        name: "PC-SalesBot Pro - Telegram AI Assistant",
+        summary: "Intelligent bot developed with Python, the Google Gemini API, and MongoDB Atlas. It enables hardware recommendations, catalog validation, and chat history persistence, deployed to the cloud using Render.",
+        linkPreview: "https://web.telegram.org/a/#8545823479",
+        linkSource: "https://github.com/Carlos29Guardado/chatBot-PcSalesBot-Pro.git",
       },
     ],
     about: {
