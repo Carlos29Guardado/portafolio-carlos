@@ -1,0 +1,21 @@
+name: Despliegue Automático a Azure
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Conectando al servidor y actualizando el Portafolio
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER}}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /home/carlos_admin/portafolio-carlos
+            git pull origin main
+            pnpm install
+            npx astro build
+            sudo cp -r dist/* /var/www/cmguardado.dev/
