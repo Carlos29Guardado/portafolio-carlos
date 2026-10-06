@@ -49,16 +49,15 @@ export const SITE_CONTENT = {
     },
     experience: [
       {
-        company: "Iglesia Comunitaria (Proyecto Independiente)",
-        position: "Desarrollador Android Nativo",
-        startDate: "2024",
-        endDate: "2026",
-        summary: [
-          "Diseño y desarrollo de una aplicación móvil nativa en Java para digitalizar el registro y control logístico de alcancías de la comunidad.",
-          "Implementación de persistencia de datos local utilizando SQLite, optimizando la gestión y resguardo de los registros.",
-          "Configuración de túneles de red con ngrok para habilitar la comunicación y sincronización de datos de la app con un servidor local."
-        ],
-      },
+      company: "Recauda (Proyecto Independiente)",
+      position: "Desarrollador Mobile Full Stack",
+      startDate: "Junio 2026",
+      endDate: "Presente",
+      summary: [
+        "Desarrollo de aplicación móvil con React Native y Expo para digitalizar el seguimiento de recaudo en campo, respaldada por una API REST en Node.js y PostgreSQL (Neon).",
+        "Implementación de despliegues Over-The-Air (OTA) mediante expo-updates, logrando enviar actualizaciones instantáneas de interfaz y lógica sin requerir reinstalar el APK."
+      ]
+    },
       {
         company: "Proyecto Sismo SV",
         position: "Especialista en Despliegue Web",
@@ -74,17 +73,11 @@ export const SITE_CONTENT = {
     ],
     projects: [
       {
-        name: "JuegosCentral",
-        summary: "Interfaz responsiva de gestión de productos con operaciones CRUD completas manipulando el DOM. Desarrollado nativamente con HTML5, CSS3 y Vanilla JavaScript.",
-        linkPreview: "https://proyecto-juego-central.vercel.app/dashboard.html",
-        linkSource: "https://github.com/Carlos29Guardado/Proyecto-JuegoCentral.git",
-      },
-      {
-        name: "Sistema de Inventario MERN",
-        summary: "Plataforma Full-Stack para gestión de libros. Desarrollada con React.js en el frontend y Node.js/Express en el backend, con persistencia en MongoDB Atlas y autenticación JWT.",
-        linkPreview: "https://libreria-web-proyecto.vercel.app/",
-        linkSource: "https://github.com/Carlos29Guardado/Librer-a-Web-Proyecto.git",
-      },
+      name: "Recauda - App Móvil",
+      summary: "Aplicación móvil para digitalizar el seguimiento de donaciones en campo. Desarrollada con React Native, Node.js y PostgreSQL, implementando actualizaciones OTA.",
+      linkPreview: "https://youtube.com/shorts/AXrE26x6jnQ?si=iCw1jUzv3OTnE6mt",
+      linkSource: "https://github.com/Carlos29Guardado/recauda-app",
+    },
       {
         name: "Sistema POS e Inventario (Llantería)",
         summary: "Plataforma Full-Stack desarrollada con Angular en el frontend y Node.js/Express en el backend. Permite el control total de inventarios y gestión de usuarios con operaciones CRUD completas y persistencia en MongoDB Atlas.",
@@ -119,16 +112,16 @@ export const SITE_CONTENT = {
     },
     experience: [
       {
-        company: "Community Church (Independent Project)",
-        position: "Native Android Developer",
-        startDate: "2024",
-        endDate: "2026",
-        summary: [
-          "Designed and developed a native Java mobile application to digitize the registration and logistical tracking of community donation boxes.",
-          "Implemented local data persistence using SQLite, significantly optimizing the management and security of financial records.",
-          "Configured ngrok network tunnels to enable seamless app communication and data synchronization with a local server."
-        ],
-      },
+      company: "Recauda (Independent Project)",
+      position: "Full Stack Mobile Developer",
+      startDate: "June 2026",
+      endDate: "Present",
+      summary: [
+        "Engineered a mobile application to digitalize field donation tracking using React Native and Expo, backed by a Node.js RESTful API and a cloud-based PostgreSQL database (Neon).",
+        "Architected an offline-first system utilizing AsyncStorage, enabling field volunteers to seamlessly operate and record data in zero-connectivity environments.",
+        "Implemented Over-The-Air (OTA) deployment pipelines via expo-updates, allowing instant interface and logic updates without requiring full APK reinstalls."
+      ]
+    },
       {
         company: "Proyecto Sismo SV",
         position: "Web Deployment Specialist",
@@ -144,17 +137,11 @@ export const SITE_CONTENT = {
     ],
     projects: [
       {
-        name: "JuegosCentral",
-        summary: "Responsive product management interface featuring full CRUD operations via DOM manipulation. Developed natively with HTML5, CSS3, and Vanilla JavaScript.",
-        linkPreview: "https://proyecto-juego-central.vercel.app/dashboard.html",
-        linkSource: "https://github.com/Carlos29Guardado/Proyecto-JuegoCentral.git",
-      },
-      {
-        name: "MERN Inventory System",
-        summary: "Full-Stack platform for book management. Developed with React.js (Frontend) and Node.js/Express (Backend), featuring MongoDB Atlas persistence and secure JWT authentication.",
-        linkPreview: "https://libreria-web-proyecto.vercel.app/",
-        linkSource: "https://github.com/Carlos29Guardado/Librer-a-Web-Proyecto.git",
-      },
+      name: "Recauda - Mobile App",
+      summary: "Mobile application to digitalize field donation tracking. Developed with React Native, Node.js, and PostgreSQL, implementing OTA updates.",
+      linkPreview: "https://youtube.com/shorts/AXrE26x6jnQ?si=iCw1jUzv3OTnE6mt",
+      linkSource: "https://github.com/Carlos29Guardado/recauda-app",
+    },
       {
         name: "POS & Inventory System (Llantería)",
         summary: "Full-Stack Point of Sale and Inventory platform built with Angular (Frontend) and Node.js/Express (Backend). Enables total inventory control and user management with full CRUD operations and MongoDB Atlas persistence.",
